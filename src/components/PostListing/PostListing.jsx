@@ -47,16 +47,11 @@ class PostListing extends React.Component {
               </PostHeader>
               <section className="post-excerpt">
                 {/* TODO limit excerpt to 26 words */}
-                <p>
-                  {}{" "}
-                  <section
-                    className="post-content"
-                    dangerouslySetInnerHTML={{ __html: html }}
-                  />
-                  <Link className="read-more" to={path}>
-                    &raquo;
-                  </Link>
-                </p>
+
+                <div
+                  className="post-content"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
               </section>
               <footer className="post-meta">
                 <AuthorThumbnail avatar={author.image} name={author.name} />
