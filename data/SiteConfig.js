@@ -9,8 +9,7 @@ module.exports = {
   siteUrl: "https://www.edabot.com", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription: "Here are some things I made for the Internet.", // Website description used for RSS feeds/meta description tag.
-  siteCover:
-    "https://haysclark.github.io/gatsby-starter-casper/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+  siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
@@ -50,5 +49,5 @@ module.exports = {
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
-  promoteGatsby: true // Enables the GatsbyJS promotion information in footer.
+  promoteGatsby: false // Enables the GatsbyJS promotion information in footer.
 };
